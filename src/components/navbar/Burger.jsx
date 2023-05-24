@@ -15,16 +15,14 @@ export const Burger = () => {
           : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
       }
       {
-        toggleMenu 
-        && 
-        (
-        <div className="gpt3__navbar-menu_container scale-up-center">
-          <Links isBurger={true}/>
-          <div className="gpt3__navbar-menu_container-links-sign">
-            <p>Sign in</p>
-            <button type="button">Sign up</button>
+        toggleMenu  && (
+          <div className="gpt3__navbar-menu_container scale-up-center">
+            <Links isBurger={true}/>
+            <div className="gpt3__navbar-menu_container-links-sign">
+              <p>Sign in</p>
+              <button type="button">Sign up</button>
+            </div>
           </div>
-        </div>
         )
       }
     </div>
