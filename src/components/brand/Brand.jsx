@@ -1,25 +1,17 @@
 import React from 'react';
 import './brand.css';
-import {google, slack, atlassian, dropbox, shopify} from '../index';
+import { brands } from '../../data/data';
 
 export const Brand = () => {
   return (
     <div className="gpt3__brand section__padding">
-      <div>
-        <img src={google} alt='google' />
-      </div>
-      <div>
-        <img src={slack} alt='slack' />
-      </div>
-      <div>
-        <img src={atlassian} alt='atlassian' />
-      </div>
-      <div>
-        <img src={dropbox} alt='dropbox' />
-      </div>
-      <div>
-        <img src={shopify} alt='shopify' />
-      </div>
+      {
+        brands.map((item, index) => (
+          <div key={index}>
+            <img src={item.brand} alt={item.brand} />
+          </div>
+        ))
+      }
     </div>
   )
 }
