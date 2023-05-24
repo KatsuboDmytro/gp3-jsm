@@ -6,7 +6,7 @@ export const Links = () => {
         <>  
         {
             footerLinks.map((link, index) => (
-                <div className="gpt3__footer-links_div" key={index}>
+                <div className="gpt3__footer-links_div flex-col" key={index}>
                     <h4>{link.header}</h4>
                     <p>{link.first_text}</p>
                     <p>{link.second_text}</p>

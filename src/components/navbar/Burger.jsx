@@ -16,7 +16,7 @@ export const Burger = () => {
       }
       {
         toggleMenu  && (
-          <div className="gpt3__navbar-menu_container scale-up-center">
+          <div className="gpt3__navbar-menu_container scale-up-center flex-col">
             <Links isBurger={true}/>
             <div className="gpt3__navbar-menu_container-links-sign">
               <p>Sign in</p>

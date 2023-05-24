@@ -7,7 +7,7 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="gpt3__footer section__padding">
+    <div className="flex-col section__padding">
       <div className="gpt3__footer-heading">
         <h1 className="gradient__text">Do you want to step in to the future before others</h1>
       </div>
@@ -17,7 +17,7 @@ export const Footer = () => {
       </div>
 
       <div className="gpt3__footer-links">
-        <div className="gpt3__footer-links_logo">
+        <div className="gpt3__footer-links_logo flex-col">
           <img src={logo} alt="gpt3_logo" />
           <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
         </div>

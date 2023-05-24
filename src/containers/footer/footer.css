@@ -1,6 +1,4 @@
 .gpt3__footer {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -58,11 +56,6 @@
     margin: 1rem;
 }
 
-.gpt3__footer-links_logo {
-    display: flex;
-    flex-direction: column;
-}
-
 .gpt3__footer-links_logo img {
     width: 118px;
     margin-bottom: 1rem;
@@ -76,9 +69,7 @@
 }
 
 .gpt3__footer-links_div {
-    display: flex;
     justify-content: flex-start;
-    flex-direction: column;
 }
 
 .gpt3__footer-links_div h4 {
