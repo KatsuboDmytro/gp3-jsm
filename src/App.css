@@ -90,3 +90,22 @@ a {
     margin: 4rem 2rem;
   }  
 }
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+/*Track*/
+::-webkit-scrollbar-track{
+  background: var(--color-bg);
+}
+
+/*Handle*/
+::-webkit-scrollbar-thumb{
+  background: var(--color-blog);
+}
+
+/*Handle on hover*/
+::-webkit-scrollbar-track:hover{
+  background: var(--color-footer);
+}
